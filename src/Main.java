@@ -1,11 +1,12 @@
-import observer.ObserverDemo;
 import responsibility.ChainOfResponsibilityDemo;
-import strategy.StrategyDemo;
 
 public class Main {
     public static void main(String[] args) {
+        // Ejemplo de patrón Observer
         //ObserverDemo.ejecutar();
+        // Ejemplo de patrón Strategy
         //StrategyDemo.ejecutar();
+        // Ejemplo de patrón Chain of Responsibility
         ChainOfResponsibilityDemo.ejecutar();
     }
 }
